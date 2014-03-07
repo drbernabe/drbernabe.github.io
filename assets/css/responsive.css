@@ -28,6 +28,7 @@
     text-align: center;
   }
 
+  #about-container .container,
   #location-container .container,
   #contact-container .container {
     width: 100%;
