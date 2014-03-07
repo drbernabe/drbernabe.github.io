@@ -1,0 +1,35 @@
+@media(max-width: 640px) {
+  #tagline {
+    font-size: 1.5em;
+  }
+
+  iframe {
+    max-width: 90%;
+  }
+
+  #eastyork,
+  #scarborough,
+  #eastyork-hours,
+  #scarborough-hours {
+    clear: both;
+    width: 100%;
+  }
+
+  .services li {
+    font-size: 1.75rem;
+  }
+
+  .map {
+    width: 10;
+    height: 100;
+  }
+
+  .contact-section {
+    text-align: center;
+  }
+
+  #location-container .container,
+  #contact-container .container {
+    width: 100%;
+  }
+}
