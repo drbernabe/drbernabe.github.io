@@ -32,7 +32,8 @@
   padding-bottom: 5em;
 }
 
-#location-container .container {
+#location-container .container,
+#contact-container .container {
   width: 750px;
 }
 
@@ -47,6 +48,7 @@
 
 .services {
   list-style: none;
+  padding: 0;
 }
 
 .services li {
@@ -71,10 +73,6 @@
 
 #contact-container {
   padding-bottom: 5em;
-}
-
-#contact-container .container {
-  width: 750px;
 }
 
 .contact-section h3 {
