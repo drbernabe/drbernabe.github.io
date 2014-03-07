@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif !IMPORTANT;
+  font-weight: 400;
+  color: #555;
+  font-size: 105%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-variant: small-caps;
+}
+
+.full-width {
+  height: auto;
+  width: 100%;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(155,89,182,0.45);
+}
+
+.section-title {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #8e44ad;
+}
+
+.emphasize {
+  font-weight: 600;
+}
+
+p {
+  margin: 0 !IMPORTANT;
+}
+
+.centered {
+  text-align: center;
+}
