@@ -28,10 +28,18 @@
   font-weight: 300;
 }
 
-#location-container {
+#about-container {
   padding-bottom: 5em;
+  line-height: 27px;
+  font-size: 1.75rem;
 }
 
+#location-container {
+  padding-bottom: 5em;
+  background-color: #eee;
+}
+
+#about-container .container,
 #location-container .container,
 #contact-container .container {
   width: 750px;
@@ -42,7 +50,6 @@
 }
 
 #services-container {
-  background-color: #eee;
   padding-bottom: 5em;
 }
 
@@ -72,7 +79,8 @@
 }
 
 #contact-container {
-  padding-bottom: 5em;
+  background-color: #eee;
+  padding-bottom: 10em;
 }
 
 .contact-section h3 {
@@ -84,7 +92,6 @@
 }
 
 #footer {
-  margin-top: 4em;
   background-color: #2C3E50;
   color: #fff;
   height: 50px;
