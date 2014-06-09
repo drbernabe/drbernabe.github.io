@@ -15,6 +15,10 @@
   padding-top: 1.5em;
 }
 
+#hero-tagline {
+  font-family: 'Raleway', sans-serif;
+}
+
 #tagline-container {
   background-color: #eee;
   height: 175px;
@@ -25,13 +29,19 @@
 #tagline {
   text-align: center;
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
 }
 
 #about-container {
   padding-bottom: 5em;
   line-height: 27px;
   font-size: 1.75rem;
+  background-color: #fff;
+}
+
+#about-container p {
+  text-align: justify;
 }
 
 #location-container {
@@ -51,6 +61,7 @@
 
 #services-container {
   padding-bottom: 5em;
+  background-color: #fff;
 }
 
 .services {
@@ -85,13 +96,22 @@
 
 .contact-section h3 {
   padding-bottom: 0.75em;
+  padding-top: 0.5em;
 }
 
 .contact-section p {
   font-size: 115%;
+  padding-top: 0.75em;
+}
+
+.contact-label {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700 !IMPORTANT;
 }
 
 #footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
   background-color: #2C3E50;
   color: #fff;
   height: 50px;

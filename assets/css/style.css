@@ -1,14 +1,20 @@
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Open Sans', sans-serif !IMPORTANT;
+  font-family: 'Libre Baskerville', serif !IMPORTANT;
   font-weight: 400;
-  color: #555;
+  color: #4a4a4a !IMPORTANT;
   font-size: 105%;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-variant: small-caps;
+  font-family: 'Raleway', sans-serif !IMPORTANT;
+  text-transform: uppercase;
+  font-weight: 600 !IMPORTANT;
+}
+
+.bg {
+  background-color: #fafafa;
 }
 
 .full-width {

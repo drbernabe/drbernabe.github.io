@@ -1,10 +1,40 @@
+@media(max-width: 1000px) {
+  html,body {
+    font-size: 90%;
+  }
+
+  #tagline {
+    font-size: 2.5em;
+  }
+
+  iframe {
+    max-width: 90%;
+  }
+
+  .services li {
+    font-size: 1.75rem;
+  }
+
+  .map {
+    width: 10;
+    height: 100;
+  }
+
+  #about-container .container,
+  #location-container .container,
+  #contact-container .container {
+    width: 95%;
+  }
+}
+
+
 @media(max-width: 640px) {
   #tagline {
     font-size: 1.25em;
   }
 
   iframe {
-    max-width: 90%;
+    max-width: 85%;
   }
 
   #eastyork,
